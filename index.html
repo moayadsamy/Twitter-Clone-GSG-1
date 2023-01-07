@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter-Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/add14ae2e8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <section>
+        <h1>Twitter</h1>
+        <div>
+          <img src="twitterm.PNG" alt="twitterlogo" />
+        </div>
+      </section>
+    </header>
+    <body>
+      <main>
+        <div class="content">
+          <section class="newTweet">
+            <div class="sideleft">
+              <input type="text" id="username" placeholder="Enter UserName" />
+            </div>
+            <form id="from">
+              <input type="text" id="newtweet" placeholder="What's happening" />
+              <button type="submit" id="submit">Submit</button>
+            </form>
+          </section>
+          <section class="content-newtweet" id="content-newtweet"></section>
+        </div>
+      </main>
+      <script src="main.js"></script>
+    </body>
+  </body>
+</html>

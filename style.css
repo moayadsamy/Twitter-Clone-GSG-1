@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/****   Start header    ****/
+
+.love {
+  color: red;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  border-bottom: 1px solid #999;
+}
+.header > section {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+/****   End header    ****/
+
+/****   Start Main    ****/
+main {
+  width: 100%;
+  display: flex;
+}
+.content {
+  width: 50%;
+  margin-left: 400px;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  height: 100vh;
+}
+.sideleft {
+  width: 40%;
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.sideleft > input {
+  width: 80%;
+  height: 50px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 13px;
+  box-shadow: 1px 1px 12px rgb(193, 201, 201);
+  outline: none;
+  margin-bottom: 30px;
+}
+.newTweet {
+  width: 100%;
+  height: 28vh;
+  border-bottom: 2px solid #999;
+}
+.newTweet > form {
+  width: 90%;
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+}
+.newTweet > form > input {
+  height: 90%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+.newTweet > form > button {
+  width: 80px;
+  height: 50px;
+  align-self: flex-end;
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  background-color: #1a91da;
+  font-size: 1rem;
+  outline: none;
+}
+.newTweet > form > button:hover {
+  background-color: #177ab8;
+  transition: 0.5s all;
+}
+
+.content-newtweet {
+  width: 100%;
+  padding-top: 15px;
+}
+.newsfeed {
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+  border-radius: 2px;
+  padding: 15px;
+}
+.newsfeed > .container {
+  width: 90%;
+  margin: auto;
+}
+.newsfeed > .container > h2 {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.newsfeed > .container > .tweetfeed {
+  width: 100%;
+  word-break: break-word;
+  margin-top: 20px;
+}
+.newsfeed > .container > p {
+  width: 100%;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  margin: 10px;
+}
+.icon-tweet {
+  margin-top: 20px;
+  border-top: 1px solid #999;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.icon-tweet > i {
+  margin-left: 30px;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
